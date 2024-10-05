@@ -1,0 +1,34 @@
+# Java build files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other files
+*.h2.db
+*.db
+
+# Spring Boot specific
+spring.log
